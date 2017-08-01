@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>   
+		<title>Главная</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+	</head>
+	<body>        
+        <header>
+            <img src="./images/google.png" alt="picture" title="Go Google!" class="goog"/>
+            <a href="https://google.com" target="blank"><img src="./images/logo.png" alt="picture" title="Go Google!" class="logo"/></a>
+            <h1>Технологии Front End</h1>  
+            <nav>
+                <ul class="first-ul">
+                    <li><a href="index.html">Главная</a></li>
+                    <li  class="menu"><a href="tecnologies.html">Технологии</a>
+                        <ul class="second-ul"> 
+                            <li><a href="html.html">HTML</a></li>
+                            <li><a href="css.html">CSS</a></li>
+                            <li><a href="bootstrap.html">Bootstrap</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="calc.html">Калькулятор</a></li>
+                    <li><a href="test.html">Тест</a></li>
+                </ul>
+            </nav>            
+        </header> 
+        <div class="main">
+            <form name="calc" class="calc-box">
+                <input name="res" type="text" class="text-area">
+                <div class="calculator">
+                    <div class="calculator-box">                                              
+                        <div class="box-one">
+                            <input type="button" class="but" value="7">
+                            <input type="button" class="but" value="8">
+                            <input type="button" class="but" value="9">
+                            <input type="button" class="but" value="/">
+                            <input type="button" class="but" value="4">
+                            <input type="button" class="but" value="5">
+                            <input type="button" class="but" value="6">
+                            <input type="button" class="but" value="*">
+                            <input type="button" class="but" value="1">
+                            <input type="button" class="but" value="2">
+                            <input type="button" class="but" value="3">                      
+                            <input type="button" class="but" value="-">                      
+                        </div>                     
+                        <div class="box-two">
+                            <input type="button" class="big-but but" value="0">
+                            <input type="button" class="but" value=".">
+                            <input type="button" class="but" value="+"> 
+                        </div>
+                    </div>        
+                    <div class="box-three">    
+                        <input type="button" class="but" value="C">
+                        <input type="button" class="but" value="&plusmn;">
+                        <input type="button" class="big-but but" value="=">                    
+                                         
+                    </div>
+                </div>    
+            </form>
+        </div>    
+        <footer>
+            <address><a href="mailto:sent@to.ua">Пишите: sent@to.ua</a></address>
+            &copy; Пикалов И.А., 1970 г.
+        </footer>      
+	</body>
+</html>

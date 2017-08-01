@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    background-color: gray;
+    max-width: 1000px;
+    font-size: 16px;
+}
+h3 {
+    margin-top: 5px;
+}
+p {
+    text-indent: 3.061224%;
+}
+
+header {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1.020408%;
+    text-align: center;
+    position: relative;
+}
+.goog {
+    position: absolute;
+    width: 14%;
+    height: 46px;
+    left: 1.020408%;
+    top: 50%;
+    margin-top: -23px;    
+}
+.logo {
+    position: absolute;
+    width: 14%;
+    height: 46px;
+    left: 1.020408%;
+    top: 50%;
+    margin-top: -23px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+.logo:hover {
+    opacity: 0;
+}
+nav {
+    display: inline-block;
+}
+nav ul {
+    position: relative;
+    list-style-type: none;
+}
+
+ul.first-ul>li { 
+    float: left; 
+}
+ul a {
+    padding: 5px;
+}
+.second-ul {
+    position: absolute;
+    border: solid 2px black;
+    border-radius: 5px;
+    display: none;
+    padding: 5px;
+    left: 67px;
+    top: 20px;
+    background-color: white;
+}
+.menu:hover .second-ul {
+    display: block;
+}
+
+.main {
+    width: 100%;
+    text-align: justify;  
+    background-color: white;
+    min-height: 220px;
+    border-radius: 10px;
+    padding: 1.020408%;  
+}
+footer {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.test {
+    width: 20%;
+    padding: 0.510204%;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: left;
+    text-align: justify;
+}
+aside {
+    font-family: Arial;
+    text-align: justify;
+    width: 35%;
+    float: right;
+    background-color: silver;
+    border-radius: 10px;
+    padding: 0.510204%;
+    margin-left: 1.020408%;
+}
+#anchor {
+    display: none;
+}
+dl {
+    margin: 0;   
+}
+dd {
+    margin-left: 3.061224%;
+}
+
+.test {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-wrapper{
+    text-align: center;
+    padding:5px;
+}
+.calc-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 250px;
+    min-height: 250px;
+}
+.text-area {
+    flex-grow: 1;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+.calculator {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 1%;
+    flex-grow: 5;
+    display: flex;
+    flex-basis: 100%;
+    background-color: aliceblue;
+    justify-content: space-around;
+}
+.calculator-box {
+    flex-basis: 79.5%;
+    display: flex;
+    flex-direction: column;
+}
+.box-one {
+    flex-basis: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.box-two {
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box-three {
+    flex-basis: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box-one .but {
+    height: 32%;
+}
+.box-two .but {   
+    height: 96%;
+}
+.but {
+    flex-basis: 24%;
+}
+.big-but {
+    flex-basis: 49%;
+}
+.result-button {
+    clear: both;
+    display: block;
+    padding: 5px;
+    margin: auto;
+}
